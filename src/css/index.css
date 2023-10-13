@@ -1,0 +1,45 @@
+* {
+  font-size: larger;
+  font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Kavoon', 'Roboto Mono', Arial, sans-serif;
+}
+
+p {
+  font-size: 25px;
+}
+
+body {
+  color: white;
+  background-color: rgb(160, 160, 160);
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Para ocupar a altura total da janela do navegador */
+  margin: 0; /* Remova a margem padrão do corpo */
+}
+
+.container {
+  background-color: rgb(50, 50, 50);
+  width: 1200px;
+  height: 600px;
+  border-radius: 25px;
+  text-align: center; /* Alinha o conteúdo do container ao centro horizontalmente */
+}
+
+a {
+  color: white; /* Altera a cor do texto para preto */
+  background-color: #1967D2;
+  width: 70px;
+  height: 19px;
+  text-decoration: none;
+  font-style: normal;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+}

@@ -1,0 +1,65 @@
+* {
+  font-size: larger;
+  font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: larger;
+  font-family: 'Kavoon', 'Roboto Mono', Arial, sans-serif;
+}
+
+h2{
+  font-size: large;
+  font-family: 'Kavoon', 'Roboto Mono', Arial, sans-serif;
+}
+
+p {
+  font-size: large;
+}
+
+body {
+  color: white;
+  background-color: rgb(160, 160, 160);
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Para ocupar a altura total da janela do navegador */
+  margin: 0; /* Remova a margem padrão do corpo */
+}
+
+.div1 {
+  background-color: rgb(50, 50, 50);
+  width: 350px;
+  height: 600px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center; /* Alinha o conteúdo do container ao centro horizontalmente */
+  
+}
+
+
+a {
+  font-size: large;
+  color: white;
+  background-color: #1967D2;
+  width: 70px;
+  height: 19px;
+  text-decoration: none;
+  font-style: normal;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12.5px;
+  border-radius: 8px;
+  }
+
+
+ul {
+  list-style-type: none;
+}
+
+.container{
+  display: flex;
+}
+
